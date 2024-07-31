@@ -1,0 +1,198 @@
+
+
+Defect Report 
+ 
+Name:Yajushreshtha Shukla 
+Prn:21070122187 
+ 
+Fields Present on Website  
+Profile Pic: A profile picture is a visual representation of yourself that can 
+enhance your online presence. It helps create a more personalized 
+connection and can be crucial in professional settings to establish your 
+identity. 
+Name (required): Your name is a fundamental piece of information that helps in identifying 
+and addressing you. It’s essential for formal communications and for any professional 
+networking. 
+Email (required): An email address is a primary method of communication in professional 
+environments. It is used for correspondence, receiving updates, and official notifications. 
+Website: Providing a personal or professional website link allows others to view your portfolio, 
+projects, or additional information about your work. It can serve as a digital resume or 
+showcase your expertise and achievements. 
+Experience (In Years) (required): This field quantifies your professional experience, providing 
+insight into your level of expertise and practical knowledge in your field. It helps in 
+understanding your background and the depth of your skills. 
+Expertise: 
+● Functional Testing: This involves verifying that the software functions according to 
+specified requirements. It focuses on testing the functionality of the software without 
+considering the internal code structure. 
+● Automation Testing: This refers to using automated tools and scripts to perform 
+testing. It is beneficial for repetitive tasks and can increase efficiency and accuracy in 
+the testing process. 
+● Manual Testing: This is the process of manually testing software for defects without 
+the use of automated tools. It involves human testers executing test cases and 
+reporting issues. 
+Education: 
+
+● Graduate: This signifies that you have completed an undergraduate degree, which 
+provides a foundational understanding of your field. 
+● Post Graduate: Indicates that you have pursued advanced studies beyond the 
+undergraduate level, often leading to specialized knowledge. 
+● Other: This can include any other relevant educational qualifications or certifications 
+that are pertinent to your professional background. 
+Comment (required): This section allows you to provide additional context or remarks about 
+your skills, experience, or professional interests. It can highlight your passion for your field, 
+specific achievements, or your career goals. 
+ 
+1. Test Case Creation 
+ 
+ 
+Test Case ID Description Steps to Execute Expected Result 
+TC001 
+Login with valid 
+credentials 
+1. Open the application. 2. Enter valid 
+username and password. 3. Click the 
+"Login" button. 
+User should be 
+redirected to the 
+dashboard. 
+TC002 
+Login with invalid 
+credentials 
+1. Open the application. 2. Enter 
+invalid username and/or password. 3. 
+Click the "Login" button. 
+Error message should 
+be displayed. 
+ 
+2. Test Case Execution 
+ 
+ 
+Test Case 
+ID Description Expected Result Actual Result Status 
+TC001 
+Login with valid 
+credentials 
+User should be redirected to the 
+dashboard. 
+User redirected to 
+dashboard. Pass 
+TC002 
+Login with invalid 
+credentials 
+Error message should be 
+displayed. 
+No error message 
+displayed. FaiL 
+ 
+ 
+ 
+ 
+ 
+ 
+
+3. Compare Results and Status 
+ 
+Defect ID Summary Description 
+Steps to 
+Reproduce 
+Expected 
+Result 
+Actual 
+Result 
+Severi
+ty 
+Prio
+rity 
+Scree
+nshot 
+Additional 
+Comments 
+D001 
+No error 
+message 
+displayed 
+on invalid 
+login 
+The application 
+does not show an 
+error message 
+when invalid 
+credentials are 
+entered. 
+1. Open the 
+application. 
+2. Enter 
+invalid 
+credentials. 
+3. Click 
+"Login". 
+Error 
+message 
+should be 
+displayed. 
+No 
+error 
+messag
+e is 
+displaye
+d. Major High  
+The issue 
+needs urgent 
+fixing as it 
+affects user 
+access. 
+ 
+4. Defect Reporting 
+ 
+ 
+Test Case ID Description Expected Result Actual Result Status 
+Defect 
+Report Screenshot 
+TC001 
+Login with 
+valid 
+credentials 
+User should be 
+redirected to the 
+dashboard. 
+User redirected 
+to dashboard. Pass - Screenshot 
+TC002 
+Login with 
+invalid 
+Error message should be 
+displayed. 
+No error 
+message Fail D001 
+Screenshot 
+ 
+
+credentials displayed. 
+ 
+ 
+
+ 
+ 
+Summary  
+Here’s a bullet-point summary of the issues encountered: 
+● Accepts Invalid Inputs: 
+○ The application allows the submission of invalid or incorrect data without 
+validation. 
+● Does Not Validate Gmail Address: 
+○ The system does not check whether the provided email address is a valid Gmail 
+address or follows proper email format. 
+● Does Not Validate Website URL: 
+○ The application does not verify if the provided website URL is properly 
+formatted or valid. 
+● Incorrect Profile Picture Format Handling: 
+○ The system accepts unsupported file formats (e.g., PPT, PDF) for profile 
+pictures and does not restrict the upload to valid image formats (e.g., PNG, 
+JPG, SVG). 
+● Allows Form Submission Without Expertise Fields: 
+○ The form can be submitted even if the fields for selecting expertise are left 
+empty, violating the required field validation. 
+These points highlight various validation and functionality issues in the application that need to 
+be addressed for improved data integrity and user experience. 
+ 
+ 
